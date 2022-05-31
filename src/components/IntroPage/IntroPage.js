@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import bg from "../images/bg1.jpg";
+import bg from "./bg4.jpg";
 import "./IntroPage.css"
 import Typewriter from "typewriter-effect"
 
