@@ -1,10 +1,13 @@
 import React from "react";
 import bg4 from "./bg4.jpg"
 import "./ContactMe.css"
+import { Parallax } from "react-parallax";
 
 
 export default function ContacMe(){
     return (
+
+        <Parallax bgImage={bg4} strength={300}>
         <div className="contactme">
         
            <h1>Contact Me</h1>
@@ -16,5 +19,6 @@ export default function ContacMe(){
             </p>
         
         </div>
+        </Parallax>
     )
 }
