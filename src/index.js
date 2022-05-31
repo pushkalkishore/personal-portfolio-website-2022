@@ -1,18 +1,16 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import IntroPage  from './components/IntroPage'
-import Skills from "./components/Skills"
+import App from './components/App'
 import './index.css'
 
-function App(){
+function Main(){
   return (
     <div>
-      <IntroPage />
-      <Skills />
+      <App />
     </div>
   )
 }
 
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
-root.render(<App />);
+root.render(<Main />);
