@@ -1,0 +1,19 @@
+.intropage{
+    height: 50vh;
+    margin: 25vh 15%;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.482);
+
+    
+}
+
+.typewriter{
+    font-size: 2rem;
+    font-weight: 700;
+}
