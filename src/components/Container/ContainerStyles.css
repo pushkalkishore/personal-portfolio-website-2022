@@ -20,3 +20,10 @@
     width: 36vw;
   }
 }
+
+@media (max-width: 450px){
+  .sectionContainer{
+    font-size: 1.2rem;
+    width: 37vw;
+  }
+}
