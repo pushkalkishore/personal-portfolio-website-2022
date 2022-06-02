@@ -1,7 +1,7 @@
 .sectionContainer{
   font-size: 1.8rem;
   background: #d9d9d9;
-  width: 30vw;
+  width: 35vw;
   color: black;
   border: 4px solid black;
   padding: 2% 5%;
@@ -12,4 +12,11 @@
 .sectionHr{
   height: 4px;
   background: black;
+}
+
+@media (max-width: 500px){
+  .sectionContainer{
+    font-size: 1.2rem;
+    width: 30vw;
+  }
 }
