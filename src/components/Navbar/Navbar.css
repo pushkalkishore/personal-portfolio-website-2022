@@ -17,3 +17,10 @@
 }
 
 
+
+  
+@media (max-width: 450px){
+    .navbar{
+        font-size:10px ;
+    }
+}
