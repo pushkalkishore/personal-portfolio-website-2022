@@ -8,7 +8,8 @@ export default function IntroPage(){
     return (
         <Parallax bgImage={bg} strength={300}>
         <div className="intropage">
-            <h1>Pushkal Kishore</h1>
+            <h2 className="introhead2">Hey, I'm</h2>
+            <h1 className="introhead1">Pushkal Kishore</h1>
             <div className="typewriter">
             <Typewriter
                 options={{

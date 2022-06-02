@@ -1,6 +1,13 @@
-.aboutme{
+.background{
     text-align: center;
     height: 100vh;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme{
+    height: 10px;
 }
 
